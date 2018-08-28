@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    float x, y;
+    cout << "Ingrese numero 1: ";
+    cin >> x;
+    cout << "Ingrese numero 2: ";
+    cin >> y;
+    cout << "Division entera: ";
+    cout << int(x / y) << endl;
+    cout << "Division real: ";
+    cout << x / y;
+    return 0;
+}
